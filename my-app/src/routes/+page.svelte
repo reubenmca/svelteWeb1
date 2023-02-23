@@ -22,6 +22,7 @@
     function incrementCount()
     {
         count++;
+        audio.play()
     }
 
     function buttonSize()
@@ -50,3 +51,4 @@
     Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
 
+<audio id = "bruh" src="https://cdn.freesound.org/previews/506/506582_11033252-lq.mp3" bind:this={audio}></audio>
