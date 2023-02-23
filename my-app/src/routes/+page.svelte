@@ -22,7 +22,8 @@
     function incrementCount()
     {
         count++;
-        audio.play()
+        audio.playbackRate = 2;
+        audio.play();
     }
 
     function buttonSize()
@@ -43,6 +44,8 @@
         
         pad.style.padding = (count2)+"vw";
         pad.style.fontSize = (count2)+"rem";
+        audio.playbackRate = 2;
+        audio.play();
     }
 </script>
 
