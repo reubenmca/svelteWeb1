@@ -6,6 +6,10 @@
         color: yellow;
         border:none;
         padding:3px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 5px;
     }
     h1{
         color:blue;
@@ -50,6 +54,7 @@
 </script>
 
 <!--HTML structure-->
+This is the root page<br>
 <button on:click={incrementCount} id = "increaseSize" on:click={buttonSize} on:keydown={buttonSmall}>
     Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
