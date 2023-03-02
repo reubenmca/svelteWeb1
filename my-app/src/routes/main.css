@@ -1,0 +1,42 @@
+:root{
+    /*max-width:0fr;*/ /*check this for width*/
+    
+}
+
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    background: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    
+}
+
+.img{
+    background-image: url(src/lib/headerIMG.jpg);
+    background-position: center;
+}
+
+body{
+
+}

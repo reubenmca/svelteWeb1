@@ -54,6 +54,7 @@
 </script>
 
 <!--HTML structure-->
+
 This is the root page<br>
 <button on:click={incrementCount} id = "increaseSize" on:click={buttonSize} on:keydown={buttonSmall}>
     Clicked {count} {count === 1 ? 'time' : 'times'}

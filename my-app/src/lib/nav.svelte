@@ -1,13 +1,13 @@
 <nav>
     <ul>
         <li>
-            1
+            Home
         </li>
         <li>
-            2
+            About
         </li>
         <li>
-            3
+            Contact Us
         </li>
     </ul>
 </nav>

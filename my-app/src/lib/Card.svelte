@@ -10,6 +10,8 @@
   
   <style>
     .card {
+      display: grid;
+      grid-template-columns: 1fr;
       background-color: #ffffff;
       border: 1px solid #e6e6e6;
       border-radius: 4px;
