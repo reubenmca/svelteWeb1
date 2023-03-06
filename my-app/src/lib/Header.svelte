@@ -1,6 +1,6 @@
-<div id = "header">
-    <div id ="img">
-        <img src="./src/lib/headerIMG.jpg" alt="headerimg" width="100%">
-    </div> 
-    <h1>This is my website template</h1>
-</div>
+<li class = "image_wrapper">
+    <img src="./src/lib/headerIMG.jpg" alt="headerimg" />
+    <div class = "overlay">
+        <h1>This is my website template</h1>
+    </div>
+</li>
