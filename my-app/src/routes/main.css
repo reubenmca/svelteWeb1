@@ -23,20 +23,24 @@ nav ul li{
     padding: 20px;
 }
 
-.header{
-    top: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    display: flex;
-    
-}
 
 .img{
-    background-image: url(src/lib/headerIMG.jpg);
-    background-position: center;
+    background-image: url(./src/lib/headerIMG.jpg);
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
-body{
-
-}
+.image_wrapper {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute; 
+    color: #f7c001;
+    background: rgba(57, 57, 57, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
