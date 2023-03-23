@@ -8,18 +8,13 @@
     
   
   </script>
-  
 
-  
 <Navigation />
 <Header />
-
+<br>
 <slot /> <!--Page specific stuff-->
 
-
-  <Card title={cardTitle} content={cardContent} />
-  <br>
-  <Card title='Hello' content='Goodbye'/>
+<Card title={cardTitle} content={cardContent} />
 
 <footer>
     
