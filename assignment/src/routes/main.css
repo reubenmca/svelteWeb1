@@ -12,6 +12,7 @@ nav ul{
     display: flex; 
     background: black;
     color: white;
+    font-size: larger;
 }
 
 nav ul li{
@@ -21,13 +22,13 @@ nav ul li{
 .overlay {
     display: flex;
     justify-content: center;
-    text-align: center;
-    color: black;
+    color: white;
+    font-size: large;
   }
 
-  .centeredText {
+.centeredText {
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
