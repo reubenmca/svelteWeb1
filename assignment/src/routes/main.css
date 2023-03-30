@@ -30,12 +30,21 @@ nav ul li{
     font-family: 'Oswald', sans-serif;
   }
 
-.centeredText {
+.centeredTitle {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.centeredDesc {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-weight: 400;
+}
 /*card css*/
   .card {
     margin: auto;
@@ -55,4 +64,21 @@ nav ul li{
   }
   .card-content {
     margin: auto;
+  }
+  /*table of images*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 300px;
   }
