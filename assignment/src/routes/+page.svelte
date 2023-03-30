@@ -13,8 +13,6 @@
   import Coffee8 from "$lib/assets/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg";
 </script>
 
-<Card title="Hello" content="Goodbye" />
-<br />
   <div class="row">
     <div class="column">
       <img src={Coffee1} alt="coffee1" />
@@ -29,3 +27,12 @@
       <img src={Coffee8} alt="coffee8" />
     </div>
   </div>
+<br>
+  <Card title="Lorem Ipsum" content="
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec malesuada nunc. Aenean nec neque
+ et nunc condimentum mollis ut sed elit. Nulla eget lobortis dui. Suspendisse ac pretium quam. In semper 
+ auctor nulla non vulputate. Curabitur iaculis nunc euismod, lacinia ligula sit amet, euismod mauris. 
+ Morbi accumsan sodales tellus non gravida. Curabitur laoreet elit ut urna convallis ullamcorper id vehicula 
+ ex. Morbi sollicitudin est ut rutrum consequat. Morbi nulla felis, rutrum sit amet lobortis eu, tempor eu nibh. 
+ Donec iaculis finibus ipsum non blandit. Nam lobortis lorem sed blandit finibus. Vivamus elementum erat urna, 
+ut condimentum massa ultrices ut." />
