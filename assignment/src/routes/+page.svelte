@@ -20,6 +20,8 @@
       <img src={Coffee3} alt="coffee3" />
       <img src={Coffee4} alt="coffee4" />
     </div>
+  </div>
+  <div class="row">
     <div class="column">
       <img src={Coffee5} alt="coffee5" />
       <img src={Coffee6} alt="coffee6" />
@@ -27,7 +29,9 @@
       <img src={Coffee8} alt="coffee8" />
     </div>
   </div>
+
 <br>
+
   <Card title="Lorem Ipsum" content="
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec malesuada nunc. Aenean nec neque
  et nunc condimentum mollis ut sed elit. Nulla eget lobortis dui. Suspendisse ac pretium quam. In semper 
