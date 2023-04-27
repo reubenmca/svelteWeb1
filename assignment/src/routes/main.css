@@ -1,5 +1,6 @@
 body {
   background-color: #faf9f6;
+  margin: 0;
 }
 /*link css*/
 a:link {
@@ -47,26 +48,30 @@ nav ul li {
 }
 
 .overlay {
-  width: auto 0;
-  display: flex;
-  justify-content: center;
+  position: relative;
   color: white;
   font-size: larger;
   font-family: "Oswald", sans-serif;
 }
 
-.centeredTitle {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.overlay img{
+  width: 100%;
 }
 
-.centeredDesc {
+
+.titles{
   position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.centeredDesc {
+
   font-size: larger;
   font-weight: 400;
 }
@@ -106,4 +111,11 @@ nav ul li {
   margin-top: 4px;
   vertical-align: middle;
   width: 300px;
+}
+
+.grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
