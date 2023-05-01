@@ -1,54 +1,21 @@
 <script>
   import Card from "$lib/card.svelte";
+  import Map from "$lib/map.svelte";
   const cardTitle = "Example Card";
   const cardContent = "This is some example content for the card.";
-
-  //import Coffee1 from "$lib/assets/christina-rumpf-LMzwJDu6hTE-unsplash.jpg";
-  import Coffee2 from "$lib/assets/clay-banks-_wkd7XBRfU4-unsplash (1).jpg";
-  import Coffee3 from "$lib/assets/ante-samarzija-lsmu0rUhUOk-unsplash.jpg";
-  import Coffee4 from "$lib/assets/devin-avery-5iRgh_G0eRY-unsplash.jpg";
-  import Coffee5 from "$lib/assets/nathan-dumlao-c2Y16tC3yO8-unsplash.jpg";
-  import Coffee6 from "$lib/assets/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg";
-  import Coffee7 from "$lib/assets/nathan-dumlao-pMW4jzELQCw-unsplash.jpg";
-  import Coffee8 from "$lib/assets/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg";
-
-  let BASE_URL = "https://api.unsplash.com";
-  let coffee_array = [];
-  fetch(`${BASE_URL}/search/photos/?client_id=IJ8uAZ9dv-CsGOxeDIRnFfJ6JdHv0yLSwG-6fpM_ilk&query=coffee&per_page=8&orientation=portrait`)
-  .then(res => res.json())
-  .then(data => {
-    data.results.forEach(item => {
-      coffee_array.push(item)
-    })
-  })
-
 </script>
-<div class = "grid">
-  <div class="row">
-    <div class="column">
-      <img src="{coffee_array[0]}" alt="coffee1" />
-      <img src={Coffee2} alt="coffee2" />
-      <img src={Coffee3} alt="coffee3" />
-      <img src={Coffee4} alt="coffee4" />
-    </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src={Coffee5} alt="coffee5" />
-      <img src={Coffee6} alt="coffee6" />
-      <img src={Coffee7} alt="coffee7" />
-      <img src={Coffee8} alt="coffee8" />
-    </div>
-  </div>
-</div>
 
+<Card
+  title="Coffee"
+  content="
+  Welcome to our coffee website, where we celebrate the art and science of brewing and enjoying coffee. 
+  For many of us, coffee is more than just a morning pick-me-up - it's a daily ritual that brings joy, 
+  comfort, and inspiration. Whether you're a seasoned coffee connoisseur or just starting to explore 
+  the world of specialty coffee, our website offers a wealth of resources, tips, and inspiration to 
+  help you take your coffee game to the next level. From expert brewing techniques and flavor profiles
+   to coffee shop reviews and industry news, we're here to share our love of coffee and help you discover
+    new ways to savor every cup. So grab your favorite mug, settle in, and let's dive into the wonderful world of coffee together!"
+/>
 <br>
-
-  <Card title="Lorem Ipsum" content="
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec malesuada nunc. Aenean nec neque
- et nunc condimentum mollis ut sed elit. Nulla eget lobortis dui. Suspendisse ac pretium quam. In semper 
- auctor nulla non vulputate. Curabitur iaculis nunc euismod, lacinia ligula sit amet, euismod mauris. 
- Morbi accumsan sodales tellus non gravida. Curabitur laoreet elit ut urna convallis ullamcorper id vehicula 
- ex. Morbi sollicitudin est ut rutrum consequat. Morbi nulla felis, rutrum sit amet lobortis eu, tempor eu nibh. 
- Donec iaculis finibus ipsum non blandit. Nam lobortis lorem sed blandit finibus. Vivamus elementum erat urna, 
-ut condimentum massa ultrices ut." />
+<Map />
+<br>
