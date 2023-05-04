@@ -1,6 +1,6 @@
 <nav>
   <ul>
-    <li>Home</li>
-    <li>Gallery</li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">Gallery</a></li>
   </ul>
 </nav>
