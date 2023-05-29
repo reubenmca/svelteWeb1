@@ -1,5 +1,5 @@
 <script>
-  import HeaderImage from "$lib/assets/header.jpg";
+  import HeaderImage from "$lib/assets/oddSize.jpg";
 </script>
 
 <header class="overlay">
