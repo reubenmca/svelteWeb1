@@ -1,37 +1,26 @@
 <script>
-  import Card from "$lib/card.svelte";
   import Map from "$lib/map.svelte";
   import Image from "$lib/assets/oddSize.jpg";
-  const cardTitle = "Example Card";
-  const cardContent = "This is some example content for the card.";
+  import Test from "$lib/test.svelte";
+
+  let BASE_URL = "https://api.unsplash.com";
+  let card_array = [];
+  fetch(
+    `${BASE_URL}/search/photos/?client_id=IJ8uAZ9dv-CsGOxeDIRnFfJ6JdHv0yLSwG-6fpM_ilk&query=coffee&page=2&orientation=portrait`
+  )
+    .then((res) => res.json())
+    .then((data) => {
+      /*console.log(data.results);*/
+      card_array = data.results(() => 0.5 - Math.random()).slice(0, 11);/*randomise order of results*/
+      /*console.log(card_array);*/
+    });
 </script>
 
 <div class="cardLayout">
-  <Card
-    title=""
-    content="
-  Welcome to our coffee website, where we celebrate the art and science of brewing and enjoying coffee. 
-  For many of us, coffee is more than just a morning pick-me-up - it's a daily ritual that brings joy, 
-  comfort, and inspiration."
-    image={Image}
-  />
-  <Card
-    title=""
-    content="
-  Welcome to our coffee website, where we celebrate the art and science of brewing and enjoying coffee. 
-  For many of us, coffee is more than just a morning pick-me-up - it's a daily ritual that brings joy, 
-  comfort, and inspiration."
-    image={Image}
-  />
-  <Card
-    title=""
-    content="
-  Welcome to our coffee website, where we celebrate the art and science of brewing and enjoying coffee. 
-  For many of us, coffee is more than just a morning pick-me-up - it's a daily ritual that brings joy, 
-  comfort, and inspiration."
-    image={Image}
-  />
+  <!--maybe loop this???-->
+  <Test image={Image} /><!--change image to index of card_array-->
+  <Test image={Image} />
+  <Test image={Image} />
 </div>
 <br />
-<Map />
-<br />
+<!--<Map />-->

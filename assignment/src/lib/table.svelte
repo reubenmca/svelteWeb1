@@ -14,6 +14,7 @@
     });
 </script>
 <!--generate table 4x2-->
+<!--try make this cleaner, loop?-->
 <div class="grid">
   <div class="row">
     <div class="column">

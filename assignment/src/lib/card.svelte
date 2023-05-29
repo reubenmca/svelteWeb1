@@ -21,9 +21,8 @@
       0 16px 16px rgba(0, 0, 0, 0.05);
     padding: 0.75rem;
     width: 250px; /*make this not pixels*/
-    /*float: left;*/
     margin: 0 3rem 0rem 3rem;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;/*font family should be same for whole page*/
     justify-content: center;
   }
   .card-title {
