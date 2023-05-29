@@ -12,6 +12,8 @@
         coffee_array = [...coffee_array]; // svelte specific hack
       });
     });
+
+    
 </script>
 <!--generate table 4x2-->
 <!--try make this cleaner, loop?-->
