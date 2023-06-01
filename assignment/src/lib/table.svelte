@@ -14,15 +14,14 @@
     });
 
 
+    
 </script>
+
 <!--generate table 4x2-->
-<!--try make this cleaner, loop?-->
 <div class="grid">
-  
-      {#each coffee_array as coffee}
-      <div>
-      <img src={coffee} alt="coffee4" />
+  {#each coffee_array as coffee}
+    <div>
+      <img src={coffee} alt="coffee4" loading="eager"/>
     </div>
-    {/each}
-  
+  {/each}
 </div>
