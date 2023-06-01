@@ -1,5 +1,6 @@
 <script>
   export let image;
+  export let text;
 </script>
 
 <div class="card">
@@ -7,8 +8,7 @@
     <img class ="card-image" src = {image} alt=""/>
   <div class="card-description">
     <p class="text-body">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor.
+      {text}
     </p>
   </div>
 </div>
@@ -52,7 +52,7 @@
   /*Text*/
 
   .text-body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 130%;
     font-family: "Oswald", sans-serif;
   }

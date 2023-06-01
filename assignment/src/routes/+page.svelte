@@ -23,9 +23,9 @@
 
 <div class="cardLayout">
   <!--maybe loop this???-->
-  <Test image={card_array[0]} />
-  <Test image={card_array[1]} />
-  <Test image={card_array[2]} />
+  <Test image={card_array[0]} text="History and Origins: Coffee originated in Ethiopia and spread across Arabia and Europe, connecting people with its enticing flavors and stimulating effects."/>
+  <Test image={card_array[1]} text="Art of Brewing: Brewing coffee is an art that offers a unique sensory experience, where attention to detail and different methods bring out the best flavors."/>
+  <Test image={card_array[2]} text="Health Benefits: Coffee may have health benefits, including antioxidants that reduce the risk of certain diseases and potential improvements in cognition, mood, and heart health with moderate consumption."/>
 </div>
 <br />
 <!--<Map />-->
