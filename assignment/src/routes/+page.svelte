@@ -1,7 +1,7 @@
 <script>
   import Map from "$lib/map.svelte";
   import Test from "$lib/test.svelte";
-
+  import Slide from "$lib/slideshow.svelte"
   let BASE_URL = "https://api.unsplash.com";
   let card_array = [];
   fetch(
@@ -12,7 +12,7 @@
       /*console.log(data.results);*/
       var temp = data.results.sort(() => 0.5 - Math.random()).slice(0, 11);/*randomise order of results*/
       temp.forEach((item) => {
-        card_array.push(item.urls.full);/*create array of JUST urls*/
+        card_array.push(item.urls.regular);/*create array of JUST urls*/
         card_array = [...card_array]; // svelte specific hack
       })
       /*console.log(card_array);*/
@@ -28,4 +28,6 @@
   <Test image={card_array[2]} text="Health Benefits: Coffee may have health benefits, including antioxidants that reduce the risk of certain diseases and potential improvements in cognition, mood, and heart health with moderate consumption."/>
 </div>
 <br />
+
+<Slide />
 <!--<Map />-->

@@ -3,10 +3,10 @@
   import Header from "$lib/header.svelte";
   import Footer from "$lib/footer.svelte";
 </script>
+
 <!--elements same on all page-->
 <Navigation />
 <Header />
-<slot />
-<!--Page specific stuff-->
+<slot /><!--Page specific stuff-->
 
 <Footer />
