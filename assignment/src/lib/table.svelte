@@ -21,7 +21,7 @@
 <div class="grid">
   {#each coffee_array as coffee}
     <div>
-      <img src={coffee} alt="coffee4" loading="eager"/>
+      <img src={coffee} alt="coffee4"/>
     </div>
   {/each}
 </div>

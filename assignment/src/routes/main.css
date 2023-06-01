@@ -94,15 +94,17 @@ nav ul li {
 .grid img {
   width: 100%;
   height: 100%;
-  animation: fade ;
+  transition: transform 1s ease;
 }
 
 .grid div {
   overflow: hidden;
 }
-.loader {
-  
+
+.grid img:hover{
+  transform: scale(1.25);
 }
+
 .cardLayout {
   justify-content: center;
   display: flex;
