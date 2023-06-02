@@ -1,7 +1,6 @@
 <script>
   import Map from "$lib/map.svelte";
   import Test from "$lib/test.svelte";
-  import Slide from "$lib/slideshow.svelte"
   let BASE_URL = "https://api.unsplash.com";
   let card_array = [];
   fetch(
@@ -28,6 +27,4 @@
   <Test image={card_array[2]} text="Health Benefits: Coffee may have health benefits, including antioxidants that reduce the risk of certain diseases and potential improvements in cognition, mood, and heart health with moderate consumption."/>
 </div>
 <br />
-
-<Slide />
-<!--<Map />-->
+<Map />
