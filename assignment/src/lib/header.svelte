@@ -1,7 +1,3 @@
-<script>
-  import HeaderImage from "$lib/assets/oddSize.jpg";
-</script>
-
 <header class="overlay">
   <div class ="titles">
     <h1 class="centeredTitle">COFFEE</h1>
