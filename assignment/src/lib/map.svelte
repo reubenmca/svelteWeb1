@@ -52,4 +52,4 @@
   });
 </script>
 
-<div id="map" style="height: 500px; width: 80%; margin: 0 auto;"/>
+<div id="map" style="height: 500px; width: 80%; margin: 0 auto; margin-top: 20px;"/>

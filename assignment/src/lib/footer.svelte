@@ -3,7 +3,7 @@
     <p>&copy; 2023 Coffee Lovers, Inc.</p>
     <div class="links">
       <a href="/">Home</a>
-      <a href="/about">About</a>
+      <a href="/about">Gallery</a>
     </div>
   </div>
 </footer>
