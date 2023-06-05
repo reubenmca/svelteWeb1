@@ -1,12 +1,16 @@
 <script>
   export let image;
   export let text;
+  export let title;
 </script>
 
 <div class="card">
   <div class="card-image" />
-    <img class ="card-image" src = {image} alt=""/>
+  <img class="card-image" src={image} alt="" />
   <div class="card-description">
+    <h3 class="text-title">
+      {title}
+    </h3>
     <p class="text-body">
       {text}
     </p>
@@ -23,6 +27,7 @@
     box-shadow: 0 0 20px 8px #d0d0d0;
     overflow: hidden;
     margin: 20px 20px 0px 20px;
+    font-family: "Oswald", sans-serif;
   }
 
   /*Image*/
@@ -30,8 +35,12 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);/*transition effect*/
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1); /*transition effect*/
     object-fit: cover;
+  }
+
+  .text-title {
+    margin: 0 auto;
   }
 
   /*Description */
@@ -45,7 +54,7 @@
     height: 70%;
     bottom: 0;
     border-radius: 16px;
-    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);/*transition effect*/
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1); /*transition effect*/
     padding: 1rem;
   }
 
@@ -54,11 +63,11 @@
   .text-body {
     font-size: 1.1rem;
     line-height: 130%;
-    font-family: "Oswald", sans-serif;
+    margin: 0 auto;
   }
 
   /* Hover states */
   .card:hover .card-description {
-    transform: translateY(100%);/*hover effect*/
+    transform: translateY(100%); /*hover effect*/
   }
 </style>
