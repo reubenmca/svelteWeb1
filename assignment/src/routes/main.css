@@ -78,7 +78,6 @@ nav ul li {
 /*card css*/
 
 /*table of images*/
-
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
