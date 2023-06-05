@@ -4,7 +4,7 @@
   let display = "block";
   let coffee_array = [];
   fetch(
-    `${BASE_URL}/search/photos/?client_id=IJ8uAZ9dv-CsGOxeDIRnFfJ6JdHv0yLSwG-6fpM_ilk&query=coffee&per_page=8&orientation=portrait`
+    `${BASE_URL}/search/photos/?client_id=IJ8uAZ9dv-CsGOxeDIRnFfJ6JdHv0yLSwG-6fpM_ilk&query=coffee&per_page=12&orientation=portrait`
   )
     .then((res) => res.json())
     .then((data) => {
