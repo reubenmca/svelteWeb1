@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 /*link css*/
+/*a css can be compressed*/
 a:link {
   text-decoration: none;
   color: white;
