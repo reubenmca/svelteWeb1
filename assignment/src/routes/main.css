@@ -1,0 +1,120 @@
+body {
+  background-color: #faf9f6;
+  margin: 0;
+}
+/*link css*/
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  color: #faf9f6;
+  font-family: "Oswald", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: black;
+  font-size: larger;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.overlay {
+  background-image: url("/src/lib/assets/oddSize.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+}
+
+.titles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeredDesc {
+  margin-top: 400px;
+  font-size: larger;
+  font-weight: 400;
+}
+/*card css*/
+
+/*table of images*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
+  gap: 4px;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+
+.grid div {
+  overflow: hidden;
+}
+
+.grid img:hover {
+  transform: scale(1.25);
+}
+
+.cardLayout {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+  margin: 0 10px 0 10px;
+  justify-content: left;
+  display: grid;
+  align-items: center;
+}
+
+.left img {
+  max-height: 100vh;
+}
