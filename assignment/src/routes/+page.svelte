@@ -31,16 +31,20 @@
     .then((res) => res.json())
     .then((data) => {
       /*console.log(data.results);*/
-      var temp = data.results.sort(() => 0.5 - Math.random()).slice(0, 11);/*randomise order of results*/
-      temp.forEach((item) => {
-        card_array.push(item.urls.regular);/*create array of urls*/
-        card_array = [...card_array]; // svelte specific hack
+
+
+      var temp = data.results.sort(() => 0.5 - Math.random())/*randomise order of results*/
+      temp.forEach((item,i) => {
+        //card_array.push(item.urls.regular);/*create array of urls*/
+        //card_array = [...card_array]; // svelte specific hack
+        cardData[i].url = item.urls.regular;
+
       })
       /*assign urls into object*/
-      /*this can be moved into a singular forEach*/
-      cardData.forEach((d, i) => {
-      cardData[i].url=card_array[i]
-    })
+      /*this can be moved into a singular forEach ???*/
+      /*cardData.forEach((d, i) => {
+      cardData[i].url=card_array[i];
+    })*/
     });
 
     
