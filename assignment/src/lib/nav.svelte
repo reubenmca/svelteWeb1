@@ -4,4 +4,3 @@
     <li><a href="/about">Gallery</a></li>
   </ul>
 </nav>
-

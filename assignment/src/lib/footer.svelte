@@ -4,6 +4,7 @@
     <div class="links">
       <a href="/">Home</a>
       <a href="/about">Gallery</a>
+      <a href="https://www.youtube.com/watch?v=mx86-rTclzA" target="_blank">Click Me</a>
     </div>
   </div>
 </footer>
