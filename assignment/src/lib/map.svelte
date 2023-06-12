@@ -1,3 +1,4 @@
+<!--chatGPT generated script-->
 <script>
   import { onMount } from "svelte";
   const API_KEY = "AIzaSyBAjKFUOaeNDcOP3hRd_6Rn82q8hhi5Rgg";

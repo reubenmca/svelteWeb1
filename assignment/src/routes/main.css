@@ -1,6 +1,8 @@
 body {
   background-color: #faf9f6;
   margin: 0;
+  font-family: "Oswald", sans-serif;
+  
 }
 /*link css*/
 /*a css can be compressed*/
@@ -75,7 +77,12 @@ nav ul li {
   font-size: larger;
   font-weight: 400;
 }
-/*card css*/
+
+.map-title {
+  text-align: center;
+  margin-top: 2vw;
+  
+}
 
 /*table of images*/
 .grid {
@@ -105,6 +112,7 @@ nav ul li {
   justify-content: center;
   display: flex;
   align-items: center;
+  
 }
 
 .left {
