@@ -2,7 +2,7 @@
   export let data;
   import Map from "$lib/map.svelte";
   import Test from "$lib/test.svelte";
-  let BASE_URL = "https://api.unsplash.com";
+  
   
   
 </script>
