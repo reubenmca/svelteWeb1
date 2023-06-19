@@ -1,19 +1,19 @@
-## svelteWeb1
-# Repo for polytech web class
-# Website created using the SvelteKit framework
-# Resources used include class Moodle, Stack Overflow, ChatGPT, SvelteKit Docs
+### svelteWeb1
+## Repo for polytech web class
+## Website created using the SvelteKit framework
+## Resources used include class Moodle, Stack Overflow, ChatGPT, SvelteKit Docs
 
-Known bugs/immediate improvements
+# Known bugs/immediate improvements
    When using the nav bar to go beween the pages, if you have not yet scrolled there is no way (aside from the current link) to tell if you have changed pages.
   Might need to make the header for each page unique in some way. Maybe unique title?
   
-Future Improvements
+# Future Improvements
   Website is quite bland and boring. More features need to be added, along with more content. Maybe more API fetched content?
   Nav hover should be specific depending on which link you hover on. 
   On scroll features in line with word doc provided.
   ![image](https://github.com/reubenmca/svelteWeb1/assets/113948276/603d9861-4083-4f05-8fa4-53197b141bb0)
  
-Below I have included some key chatGPT interactions that helped me create the website
+# Below I have included some key chatGPT interactions that helped me create the website
   02/05/2023
   User
   "I am creating a website about coffee. I would like to embed a google map that shows the coffee shops around the users current location. Could you generate the code for this? I am using sveltekit as the framework."
