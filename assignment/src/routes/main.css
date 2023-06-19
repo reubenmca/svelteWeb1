@@ -31,14 +31,14 @@ nav ul {
   background: black;
   font-size: larger;
   justify-content: center;
-  width: 100%;
+  
 }
 
 nav ul li {
   padding: 15px;
   padding-left: 40px;
   padding-right: 40px;
-  width: auto 0;
+  
 }
 
 /*header image and title styling*/
