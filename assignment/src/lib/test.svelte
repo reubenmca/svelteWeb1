@@ -27,7 +27,7 @@
     box-shadow: 0 0 20px 8px #d0d0d0;
     overflow: hidden;
     margin: 20px 20px 0px 20px;
-    font-family: "Oswald", sans-serif;
+    
   }
 
   /*Image*/
@@ -59,7 +59,6 @@
   }
 
   /*Text*/
-
   .text-body {
     font-size: 1.1rem;
     line-height: 130%;

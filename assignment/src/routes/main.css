@@ -1,14 +1,19 @@
 body {
   background-color: #faf9f6;
   margin: 0;
+  font-family: "Oswald", sans-serif;
 }
-/*link css*/
 
-a:link, a:visited, a:hover, a:active {
+/*link css*/
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
   color: white;
 }
 
+/*nav bar styles*/
 nav {
   position: fixed;
   top: 0;
@@ -16,7 +21,6 @@ nav {
   right: 0;
   z-index: 1000;
   color: #faf9f6;
-  font-family: "Oswald", sans-serif;
 }
 
 nav ul {
@@ -27,14 +31,17 @@ nav ul {
   background: black;
   font-size: larger;
   justify-content: center;
+  width: 100%;
 }
 
 nav ul li {
   padding: 15px;
   padding-left: 40px;
   padding-right: 40px;
+  width: auto 0;
 }
 
+/*header image and title styling*/
 .overlay {
   background-image: url("/src/lib/assets/oddSize.jpg");
   height: 100vh;
@@ -43,7 +50,6 @@ nav ul li {
   position: relative;
   color: white;
   font-size: x-large;
-  font-family: "Oswald", sans-serif;
 }
 
 .titles {
@@ -63,12 +69,11 @@ nav ul li {
   font-size: larger;
   font-weight: 400;
 }
-/*card css*/
 
 /*table of images*/
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); /*table has 4 columns, each 1fr width*/
   margin: auto;
   margin-top: 10px;
   width: 70%;
@@ -86,23 +91,12 @@ nav ul li {
 }
 
 .grid img:hover {
-  transform: scale(1.25);
+  transform: scale(1.25); /*zoom in on hover*/
 }
 
+/*layout of cards on main page*/
 .cardLayout {
   justify-content: center;
   display: flex;
   align-items: center;
-}
-
-.left {
-  width: 50%;
-  margin: 0 10px 0 10px;
-  justify-content: left;
-  display: grid;
-  align-items: center;
-}
-
-.left img {
-  max-height: 100vh;
 }
