@@ -5,7 +5,8 @@
 
 # Known bugs/immediate improvements
    When using the nav bar to go beween the pages, if you have not yet scrolled there is no way (aside from the current link) to tell if you have changed pages.
-  Might need to make the header for each page unique in some way. Maybe unique title?
+   Might need to make the header for each page unique in some way. Maybe unique title?
+   The cards on the main page shrink are not responsive. They should drop into column when the browser becomes smaller.
   
 # Future Improvements
   Website is quite bland and boring. More features need to be added, along with more content. Maybe more API fetched content?
