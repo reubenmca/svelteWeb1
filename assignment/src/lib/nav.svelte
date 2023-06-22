@@ -13,7 +13,7 @@
     width: 0%;
     height: 1px;
     display: block;
-    transition: all 1s ease;
+    transition: all 1s ease;/*transition type*/
     bottom: 20%;
   }
   ul:hover:after {

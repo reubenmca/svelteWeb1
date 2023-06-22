@@ -1,4 +1,5 @@
 <script>
+  //specify card specifics when it is used
   export let image;
   export let text;
   export let title;
@@ -22,7 +23,7 @@
     height: 300px;
     width: 250px;
     position: relative;
-    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);/*transition effect*/
     border-radius: 16px;
     box-shadow: 0 0 20px 8px #d0d0d0;
     overflow: hidden;

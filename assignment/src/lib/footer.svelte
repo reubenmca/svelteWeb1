@@ -1,10 +1,11 @@
 <footer>
+  <!--footer content-->
   <div class="container">
     <p>&copy; 2023 Coffee Lovers, Inc.</p>
     <div class="links">
       <a href="/">Home</a>
       <a href="/about">Gallery</a>
-      <a href="https://www.youtube.com/watch?v=mx86-rTclzA" target="_blank">Click Me</a>
+      <a href="https://www.youtube.com/watch?v=mx86-rTclzA" target="_blank">Click Me</a><!--lol-->
     </div>
   </div>
 </footer>

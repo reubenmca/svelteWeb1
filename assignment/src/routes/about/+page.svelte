@@ -3,3 +3,5 @@
 </script>
 
 <Table />
+<!--this page needs more content-->
+<!--maybe text for each image?-->

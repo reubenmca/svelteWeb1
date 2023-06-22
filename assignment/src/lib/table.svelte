@@ -21,7 +21,7 @@
 
 <!--generate table 4x2-->
 <div class="grid">
-  <div style="display: {display} ;grid-column: 1/5;text-align: center;padding: 20px;font-style: italic;">Loading...</div> <!--Loading text while images are fetched-->
+  <div style="display: {display} ;grid-column: 1/5;text-align: center;padding: 20px;font-style: italic;">Loading...</div> <!--Loading text while images are fetched--><!--change to a GIF?-->
   {#each coffee_array as coffee} <!--loop through each image fetched and display-->
     <div>
       <img src={coffee} alt="coffee4"/>

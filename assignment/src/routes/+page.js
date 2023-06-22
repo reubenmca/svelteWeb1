@@ -1,5 +1,7 @@
-let BASE_URL = "https://api.unsplash.com";
 
+let BASE_URL = "https://api.unsplash.com";
+// card data fetched then exported to main page
+//url refers to image url and is empty until fetched and exported
 let cardData = [
   {
     title: "History and Origins",
@@ -26,7 +28,7 @@ export async function load() {
         cardData[i].url = item.urls.regular;
       });
       
-    return {cardData};
+    return {cardData};//once fetched
 }
 
 

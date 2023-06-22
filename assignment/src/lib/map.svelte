@@ -1,4 +1,5 @@
 <script>
+  //all this was done by chatGPT 
   import { onMount } from "svelte";
   const API_KEY = "AIzaSyBAjKFUOaeNDcOP3hRd_6Rn82q8hhi5Rgg";
   let map;
