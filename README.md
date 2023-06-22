@@ -19,13 +19,13 @@
 ### Below I have included some key chatGPT interactions that helped me create the website
   02/05/2023\
   User\
-  "I am creating a website about coffee. I would like to embed a google map that shows the coffee shops around the users current location. Could you generate the code for this? I am using sveltekit as the framework."\
+  "I am creating a website about coffee. I would like to embed a google map that shows the coffee shops around the users current location. Could you generate the code for this? I am using sveltekit as the framework."
   
-  Chat gpt then generated the code found in map.svelte\
+  Chat gpt then generated the code found in map.svelte
   
   23/05/2023\
   User\
-  "Give me three seperate paragraphs about coffee. Each should have a different subtopic/theme"\
+  "Give me three seperate paragraphs about coffee. Each should have a different subtopic/theme"
   
   Certainly! Here are even shorter versions of the three paragraphs about coffee:
 
